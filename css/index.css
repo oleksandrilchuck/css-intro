@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+body {
+    border: 1px solid black;
+    max-width: 400px;
+    margin: auto;
+}
+
+p {
+    color: brown;
+    margin: 10px;
+    padding: 20px;
+}
+#selected {
+    border: 1px solid blue;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+p:hover {
+    color:cyan;
+}
+p::first-letter {
+    font-size: 2rem;
+}
